@@ -21,3 +21,7 @@ You can also move the environment variables into an ENV file and invoke that on 
 | MQTT_SERVER               | No       | MQTT server                                                                                          | `localhost`     |
 | MQTT_USERNAME             | No       | MQTT username                                                                                        | *empty*         |
 | MQTT_PASSWORD             | No       | MQTT password                                                                                        | *empty*         |
+
+# Grafana
+
+![grafana](https://github.com/dkruyt/arris-scraper/blob/main/images/grafana.png)
