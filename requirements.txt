@@ -1,0 +1,6 @@
+requests
+schedule
+paho-mqtt
+influxdb
+urllib3
+schedule
