@@ -1,4 +1,5 @@
 # arris-scraper
+[![Docker](https://github.com/dkruyt/arris-scraper/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/dkruyt/arris-scraper/actions/workflows/docker-publish.yml)
 
 Scrapes satistics from a Arris modem and outputs it to influxdb or mqtt.
 
