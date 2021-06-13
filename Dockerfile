@@ -37,6 +37,6 @@ WORKDIR /usr/src/app
 COPY requirements.txt ./
 RUN pip install --no-cache --no-cache-dir -r requirements.txt
 
-COPY  scrape-arris.py ./
+COPY  arris-scraper.py ./
 
-CMD [ "python", "./scrape-arris.py" ]
+CMD [ "python", "./arris-scraper.py" ]
