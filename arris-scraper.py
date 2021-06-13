@@ -108,7 +108,7 @@ def do_work():
         for key, value in jresponse.items():
             x = key.split(".")
             if value.isnumeric():
-                value = int()
+                value = int(value)
             json_body.append(
                 {
                     "measurement": x[0],
@@ -117,7 +117,8 @@ def do_work():
                     "fields": {"value": value},
                 }
             )
-        # logging.debug(json_body)
+        logging.debug(json_body)
+
         if influx_user != "" and influx_password != "":
             client = InfluxDBClient(
                 host=influx_server,
